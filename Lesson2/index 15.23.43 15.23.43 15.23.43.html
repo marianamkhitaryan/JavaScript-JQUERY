@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div id="main">
+        <div class="players">
+            <h1>Enter players' names</h1>
+            <div class="inputs">
+                <input type="text" placeholder="Player1" id="player1">
+                <input type="text" placeholder="Player2" id="player2">
+            </div>
+            <a href="#game" onclick="input()">Get started!</a>
+        </div>
+    </div>
+
+
+    <hr>
+
+
+    <div id="game">
+        <div class="main_section">
+            <div class="player_sections">
+                <p id="player1_name"></p>
+                <h3 id="score1"></h3>
+                <h2>Number:</h2>
+                <div id="number1" class="number"></div>
+            </div>
+            <div class="player_sections">
+                <p id="player2_name"></p>
+                <h3 id="score2"></h3>
+                <h2>Number:</h2>
+                <div id="number2" class="number"></div>
+            </div>
+        </div>
+        <div id="buttons">
+            <div id="but1" class="but" onclick="scores()">Start</div>
+            <div id="but2" class="but" onclick="reset()">Reset score</div>
+            <a href="#main" id="but3" class="but" onclick="reset()">Go back</a>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

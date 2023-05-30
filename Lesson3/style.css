@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background{
+    background-image: url(grass.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.ball{
+    width: 100%;
+    height: 450px;
+}
+#item{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 670px;
+    top: 175px;
+}
+.control_btns{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row2{
+    display: flex;
+}
+button{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+}

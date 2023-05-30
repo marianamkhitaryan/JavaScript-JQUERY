@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/d1c1fe653b.js" crossorigin="anonymous"></script>
+    <title>Jewelry shop</title>
+</head>
+<body>
+    <div id="container">
+
+        <!-- Search section -->
+
+        <div id="searchSection">
+            <div class="searchInputAndIcon">
+                <input type="search" placeholder="Поиск" id="searchInput">
+                <i class="fas fa-search" id="searchIcon"></i>
+            </div>
+        </div>
+
+        <!-- Categories section -->
+
+        <div id="categoriesSection">
+            <div id="genders">
+                <i class="fas fa-female gender" id="femaleBtn"></i>
+                <i class="fas fa-male gender" id="maleBtn"></i>
+            </div>
+            <div id="categories">
+                <div class="category">
+                    <img src="" alt="" class="categoryImg">
+                    <p class="categoryName"></p>
+                </div>
+                <div class="category">
+                    <img src="" alt="" class="categoryImg">
+                    <p class="categoryName"></p>
+                </div>
+                <div class="category">
+                    <img src="" alt="" class="categoryImg">
+                    <p class="categoryName"></p>
+                </div>
+                <div class="category">
+                    <img src="" alt="" class="categoryImg">
+                    <p class="categoryName"></p>
+                </div>
+                <div class="category">
+                    <img src="" alt="" class="categoryImg">
+                    <p class="categoryName"></p>
+                </div>
+                <div class="category">
+                    <img src="" alt="" class="categoryImg">
+                    <p class="categoryName"></p>
+                </div>
+                <div class="category">
+                    <img src="" alt="" class="categoryImg">
+                    <p class="categoryName"></p>
+                </div>
+            </div>
+            <div id="plusBtn1">
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+
+        <!-- Subcategories section -->
+
+        <div id="subCategoriesSection">
+            <div id="subCategories">
+                <div class="subCategories" id="subCategories_1">
+                    <div class="subCategory">
+                        <p class="subcategoryName"></p>
+                        <div id="line"></div>
+                    </div>
+                    <div class="subCategory">
+                        <p class="subcategoryName"></p>
+                    </div>
+                    <div class="subCategory">
+                        <p class="subcategoryName"></p>
+                    </div>
+                </div>
+                <div class="underline"></div>
+            </div>
+            <div id="plusBtn2">
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+
+        <!-- Items section -->
+
+        <div id="items" class="items">
+            <div class="item">
+                <img src="" alt="" class="itemImg">
+                <div class="description">
+                    <p class="itemName">A555</p>
+                    <p class="price">2500$</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="" alt="" class="itemImg">
+                <div class="description">
+                    <p class="itemName">A555</p>
+                    <p class="price">2500$</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="" alt="" class="itemImg">
+                <div class="description">
+                    <p class="itemName">A555</p>
+                    <p class="price">2500$</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="" alt="" class="itemImg">
+                <div class="description">
+                    <p class="itemName">A555</p>
+                    <p class="price">2500$</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="" alt="" class="itemImg">
+                <div class="description">
+                    <p class="itemName">A555</p>
+                    <p class="price">2500$</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="" alt="" class="itemImg">
+                <div class="description">
+                    <p class="itemName">A555</p>
+                    <p class="price">2500$</p>
+                </div>
+            </div>
+            <!-- <div class="item">
+                <img src="" alt="" class="itemImg">
+                <div class="description">
+                    <p class="itemName">A555</p>
+                    <p class="price">2500$</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="" alt="" class="itemImg">
+                <div class="description">
+                    <p class="itemName">A555</p>
+                    <p class="price">2500$</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="" alt="" class="itemImg">
+                <div class="description">
+                    <p class="itemName">A555</p>
+                    <p class="price">2500$</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="" alt="" class="itemImg">
+                <div class="description">
+                    <p class="itemName">A555</p>
+                    <p class="price">2500$</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="" alt="" class="itemImg">
+                <div class="description">
+                    <p class="itemName">A555</p>
+                    <p class="price">2500$</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="" alt="" class="itemImg">
+                <div class="description">
+                    <p class="itemName">A555</p>
+                    <p class="price">2500$</p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- Add new subcategory -->
+    
+    <div id="layer">
+        <div id="window">
+            <div class="head">
+                <p class="window_P">кольцo : добавить подкатегория</p>
+                <i class="fas fa-times" id="closeWdw"></i>
+            </div>
+            <input type="text" id="subcatInput" placeholder="Подкатегория">
+            <button id="addBtn">добавить</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
